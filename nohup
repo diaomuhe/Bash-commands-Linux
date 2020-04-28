@@ -1,0 +1,13 @@
+nohup syntax:
+
+$ nohup command-with-options &
+
+nohup runs the specificed program with the SIGHUP signal ignored. When a terminal is closed, the kernel sends SIGHUP to the controlling process in that terminal (i.e. the shell). The shell in turn sends SIGHUP to all the jobs running in the background. Running a job with nohup prevents it from being killed in this way if the terminal dies (which happens e.g. if you were logged in remotely and the connection drops, or if you close your terminal emulator).
+
+Nohup is very helpful when you have to execute a shell-script or command that take a long time to finish. In that case, you don’t want to be connected to the shell and waiting for the command to complete. Instead, execute it with nohup, exit the shell and continue with your other work.
+
+By default, the standard output will be redirected to nohup.out file in the current directory. And the standard error will be redirected to stdout, thus it will also go to nohup.out. So, your nohup.out will contain both standard output and error messages from the script that you’ve executed using nohup command.
+
+
+
+https://linux.101hacks.com/unix/nohup-command/
