@@ -1,1 +1,14 @@
+rsync -- a fast, versatile, remote (and local) file-copying tool
+
+https://linux.die.net/man/1/rsync
+
+# Make miseq data available online to share with others
+/home/mdiao/
+$ mkdir public_html
+$ chmod -R 755 public_html
+$ cd public_html
+$ mkdir 2020-04-21-1728-GOWN_2019_arc
+$ rsync -av /gpfs/ebg_web/metaamp/tmp/2020-04-21-1728-GOWN_2019_arc/results 2020-04-21-1728-GOWN_2019_arc
+$ rsync -av /gpfs/ebg_web/metaamp/tmp/2020-04-21-1728-GOWN_2019_arc/results.zip 2020-04-21-1728-GOWN_2019_arc 
+# The link is: http://ebg.ucalgary.ca/~mdiao/2020-04-21-1728-GOWN_2019_arc/results
 
