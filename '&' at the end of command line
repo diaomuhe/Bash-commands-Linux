@@ -26,4 +26,6 @@ $ ping -c3 www.tecmint.com && links www.tecmint.com
 
 The difference between & and &&: & executes the first command in the background; && executes the first command and conditionally proceeds to the second if it exits with success.
 
+
 https://stackoverflow.com/questions/13338870/what-does-at-the-end-of-a-linux-command-mean
+https://www.tecmint.com/chaining-operators-in-linux-with-practical-examples/
