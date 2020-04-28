@@ -1,0 +1,14 @@
+> perl script.pl > output.log &
+
+# The & makes the command run in the background. If a command is terminated by the control operator &, the shell executes the command in the background in a subshell. The shell does not wait for the command to finish, and the return status is 0. If a command is terminated by the control operator &, the shell executes the command in the background in a subshell. The shell does not wait for the command to finish, and the return status is 0.
+
+If you're on this page looking for the difference between & and &&: & executes the first command in the background; && executes the first command and conditionally proceeds to the second if it exits with success.
+
+
+> nohup sh my_script.sh &
+# By default anyway. If your command is long-running or runs indefinitely (ie: microservice) you need to pr-pend it with nohup so it remains running after you disconnect from the session.
+
+
+
+
+https://stackoverflow.com/questions/13338870/what-does-at-the-end-of-a-linux-command-mean
