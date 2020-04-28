@@ -1,0 +1,9 @@
+$ grep -w "word" textfile  # search 'word' in the file 'textfile'
+
+
+
+
+
+
+
+https://unix.stackexchange.com/questions/206903/match-exact-string-using-grep
