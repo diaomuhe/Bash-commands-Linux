@@ -11,3 +11,4 @@ By default, the standard output will be redirected to nohup.out file in the curr
 
 
 https://linux.101hacks.com/unix/nohup-command/
+https://unix.stackexchange.com/questions/137759/why-use-nohup-rather-than-exec
