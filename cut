@@ -1,0 +1,6 @@
+I want to use space as a delimiter with the cut command. What syntax can I use for this?
+
+$ cut -d ' ' -f 2
+# Where 2 is the field number of the space-delimited field you want.
+
+https://stackoverflow.com/questions/816820/use-space-as-a-delimiter-with-cut-command
