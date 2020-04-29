@@ -1,1 +1,2 @@
 $ chmod -R g+rwx directory # Give write permission to the directory
+$ chmod -R 755 public_html
