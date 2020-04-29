@@ -21,8 +21,9 @@ $ apt-get update & apt-get upgrade &
 The AND Operator (&&) would execute the second command only, if the execution of first command SUCCEEDS, i.e., the exit status of the first command is 0. This command is very useful in checking the execution status of last command.
 
 For example, I want to visit website tecmint.com using links command, in terminal but before that I need to check if the host is live or not.
-
 $ ping -c3 www.tecmint.com && links www.tecmint.com
+# Example
+$ mkdir build && cd build && cmake .. [ -DCMAKE_INSTALL_PREFIX=/path/to/install ] && make && make test && make install
 
 The difference between & and &&: & executes the first command in the background; && executes the first command and conditionally proceeds to the second if it exits with success.
 
