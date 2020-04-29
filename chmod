@@ -1,0 +1,1 @@
+$ chmod -R g+rwx directory # Give write permission to the directory
