@@ -1,0 +1,1 @@
+xargs -a C8.good.bins.list cp -t /gpfs/ebg_projects/subsurface/crash_course/all_bins_gown # copy the file listed in C8.good.bins.list to a new directory
