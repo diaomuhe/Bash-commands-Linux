@@ -1,0 +1,3 @@
+> source /gpfs/ebg_data/programs/.bioinfo.bashrc  #load programs from the server
+> which signalp # check signalp 
+
