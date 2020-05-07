@@ -4,3 +4,4 @@ sed -i -e 's/|/\\|/g' contigs.replicate.txt # add \ after |, The \\ escapes the 
 
 
 https://unix.stackexchange.com/questions/32907/what-characters-do-i-need-to-escape-when-using-sed-in-a-sh-script
+https://unix.stackexchange.com/questions/211834/slash-and-backslash-in-sed
