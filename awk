@@ -1,3 +1,9 @@
+awk '{ print $2 }' text.txt > outputfile.txt # print the second column to a new file
+
+> will redirect STDOUT to a file. If file not exists, it will create it. If file exists it will clear out (in effect) the content and will write new data to it
+>> This means same as above but if file exists, this will append new data to it.
+https://stackoverflow.com/questions/14660079/how-to-save-the-output-of-this-awk-command-to-file
+
 Hello,
 I have a list:
 i.e:
