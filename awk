@@ -4,7 +4,7 @@ $ awk '{ print $2 }' text.txt > outputfile.txt # print the second column to a ne
 >> This means same as above but if file exists, this will append new data to it.
 https://stackoverflow.com/questions/14660079/how-to-save-the-output-of-this-awk-command-to-file
 
-
+$ awk '{print $1,$2,$NF;}' infile # print the first, second and last column
 
 $ awk '{print "before_"$0"_after"}' infile # add 'before_' to the front, '_after' to the end
 Example: 123 -> before_123_after
