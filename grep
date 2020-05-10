@@ -1,6 +1,8 @@
 $ grep -w "word" textfile  # search 'word' in the file 'textfile'
 
-$ grep -w 'E6_k141_115751\|E6_k141_210306' E6_sin_bin_29.fa.fai # search E6_k141_115751 and E6_k141_210306
+# Grep for multiple strings in one command
+$ grep -w 'string1\|string2' infile
+Example $ grep -w 'E6_k141_115751\|E6_k141_210306' E6_sin_bin_29.fa.fai # search E6_k141_115751 and E6_k141_210306
 
 
 https://unix.stackexchange.com/questions/37313/how-do-i-grep-for-multiple-patterns-with-pattern-having-a-pipe-character
