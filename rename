@@ -1,1 +1,5 @@
 rename -v .bin. _bin_ *.fa # rename all the '.bin.' with '_bin_'
+
+for f in *; do mv -- "$f" "prefix.$f"; done # add prefix to file names
+
+https://stackoverflow.com/questions/4787413/rename-files-and-directories-add-prefix
