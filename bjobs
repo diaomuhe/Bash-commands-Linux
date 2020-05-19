@@ -1,0 +1,6 @@
+$ bjobs -u all # list all jobs
+$ bjobs -l <jobID>
+$ bkill <jobID>
+$ bkill -r <jobID> #force the removal of the job from LSF.
+$ jobs -l #check the status of nohup jobs
+$ bhosts # check which node is using
