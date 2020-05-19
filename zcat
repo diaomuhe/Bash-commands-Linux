@@ -1,0 +1,2 @@
+$ zcat MDI-GOWN-E3-20200128_S189_L001_R2_001.fastq.gz | grep -c "^@M03099:"
+$ zcat *.fastq.gz | grep -c "^@M03099:"
