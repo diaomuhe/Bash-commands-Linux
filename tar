@@ -1,0 +1,5 @@
+$ tar -zxvf yourfile.tar.gz     # extract the file to the current directory
+$ tar -C /myfolder -zxvf yourfile.tar.gz    # specify a different directory to extract to using -C parameter and a path to the directory
+
+$ tar -xvf yourfile.tar       # extract the file to the current directory 
+$ tar -C /myfolder -xvf yourfile.tar      # extract to another directory
