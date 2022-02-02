@@ -7,6 +7,7 @@ a=All (u=User, g=Group) and rwx is Read, Write and eXecute. + means add permissi
 
 https://askubuntu.com/questions/470831/change-permission-to-read-write-and-execute/470834
 https://askubuntu.com/questions/488485/allowing-a-group-read-write-access-to-a-directory?rq=1&newreg=5f180a32ac2844a1ac3c10f9abc929eb
+https://blog.ssdnodes.com/blog/linux-permissions/
 
 $ chmod o-r filea # read permission are taken away from others.
 $ chmod a+rx fileb # read and execute permissions are added for user, group, and others
