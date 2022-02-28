@@ -1,0 +1,2 @@
+$ awk '!seen[$0]++' file.txt 
+https://stackoverflow.com/questions/1444406/how-to-delete-duplicate-lines-in-a-file-without-sorting-it-in-unix
