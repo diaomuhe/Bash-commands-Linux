@@ -1,0 +1,9 @@
+# Send it through sort (to put adjacent items together) then uniq -c to give counts, i.e.
+$ sort filename | uniq -c
+
+# and to get that list in sorted order (by frequency) you can
+$ sort filename | uniq -c | sort -nr
+
+
+
+https://stackoverflow.com/questions/6447473/linux-command-or-script-counting-duplicated-lines-in-a-text-file
