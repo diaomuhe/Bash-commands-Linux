@@ -1,3 +1,5 @@
+
+```
 # Paste command is one of the useful commands in Unix or Linux operating system. It is used to join files horizontally (parallel merging) by outputting lines consisting of lines from each file specified, separated by tab as delimiter, to the standard output. When no file is specified, or put dash (“-“) instead of file name, paste reads from standard input and gives output as it is until a interrupt command [Ctrl-c] is given.
 
 Example: 
@@ -11,3 +13,4 @@ $ paste -d ' ' 1 2 3 fixed.4 > list.2kb.contig.headers.fixed # Combined all colu
 
 
 https://www.geeksforgeeks.org/paste-command-in-linux-with-examples/ 
+```
