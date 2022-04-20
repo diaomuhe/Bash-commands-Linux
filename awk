@@ -12,3 +12,4 @@ Example: 123 -> before_123_after
 $ perl -pe 's/(.*)/before_$1_after/' infile
 
 
+https://stackoverflow.com/questions/16136943/how-to-get-the-second-column-from-command-output
