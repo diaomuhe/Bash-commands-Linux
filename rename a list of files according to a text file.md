@@ -21,3 +21,5 @@ n05
 ```
 for file in *.nii; do read line;  mv -v "${file}" "${line}";  done < list
 ```
+
+https://unix.stackexchange.com/questions/152656/rename-a-list-of-files-according-to-a-text-file
