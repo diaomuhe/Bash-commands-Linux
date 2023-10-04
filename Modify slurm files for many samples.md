@@ -16,3 +16,18 @@ done
 chmod +x modify_files.sh
 bash chmod +x modify_files.sh
 ```
+### Submit multiple slurm jobs with the same name in subdirectories
+cat > loop_sbatch_phyloflash.sh
+```
+#!/bin/bash
+
+# Loop through subdirectories
+for subdir in */; do
+
+    find "$subdir" -type f -name 'phyloflash.slurm' -exec sbatch {} \;
+done
+```
+```
+chmod +x loop_sbatch_phyloflash.sh
+bash loop_sbatch_phyloflash.sh
+```
