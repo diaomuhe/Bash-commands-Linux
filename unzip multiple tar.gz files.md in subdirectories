@@ -1,0 +1,3 @@
+```
+find /path/to/directory -type f -name "*.tar.gz" -exec sh -c 'tar -xzvf "$0" -C "$(dirname "$0")"' {} \; 
+```
