@@ -1,3 +1,4 @@
+This one is easier
 ```
 find /path/to/parent/directory -type d -exec cp /path/to/source/file {} \;
 ```
