@@ -10,5 +10,5 @@ for subdir in $parent_directory/*; do
         sbatch metaerg_apptainer_4_unbinned.slurm
     fi
 done
-batch_submit_metaerg_bin_slurm.sh
 ```
+replace the parent_directory and slurm file name when use
