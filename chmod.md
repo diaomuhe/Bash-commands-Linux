@@ -4,6 +4,7 @@
 chmod -R g+rwx directory # Give write permission to the directory
 chmod -R 755 public_html
 chmod -R g-rwx directory # Remove permission
+chmod 750 # The chmod 750 command is used to set file permissions in Linux, where the owner has read, write, and execute permissions, the group has read and execute permissions, and others have no permissions
 
 chmod -rwxrwxrwx read.me
 chmod -R a+rwx raw_data_GOWN
